@@ -6,14 +6,19 @@
       "id": 2
     },
     {
-      "title": "kod yaz",
-      "done": false,
+      "title": "ye - kod yaz - uyuu",
+      "done": true,
       "id": 4
     },
     {
       "title": "Alış verişe git",
       "done": false,
       "id": 5
+    },
+    {
+      "title": "Ödevleri yap",
+      "done": true,
+      "id": 6
     }
   ]
 }
