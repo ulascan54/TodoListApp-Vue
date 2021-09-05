@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service json-server --watch db.json build",
+    "build": "vue-cli-service build ",
+    "build": "json-server --watch db.json build ",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -14,14 +15,14 @@
     "vue-router": "^4.0.11"
   },
   "devDependencies": {
+    "json-server": "^0.16.3",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0",
-    "json-server": "^0.16.3"
+    "eslint-plugin-vue": "^7.0.0"
   },
   "eslintConfig": {
     "root": true,
